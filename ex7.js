@@ -1,0 +1,11 @@
+function sumEvenNumbers(numbers) {
+  // Écris ton code ici
+    let total = 0
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] %2 == 0) {
+          total += numbers[i]
+    }
+  }
+  return total
+
+}

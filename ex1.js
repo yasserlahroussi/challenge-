@@ -1,7 +1,9 @@
 function isEven(number) {
-    let even = false
+    let even = true
   if (number %2 == 0) {
-    return even = true
+    return even 
+  }else{
+    return !even
   }
 }
-console.log(isEven(2))
+isEven(2)
