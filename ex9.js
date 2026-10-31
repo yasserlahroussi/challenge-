@@ -6,11 +6,12 @@ function sumRows(matrix) {
   let array = []
   for (let i = 0; i < matrix.length; i++) {
      let total = 0
-    for (let j = 0; j < matrix[i][j].length; j++) {
-        total += matrix[j]
+    for (let j = 0; j < matrix[i].length; j++) {
+        total += matrix[i][j]
     }
     array.push(total)
   }
-  return array
+  console.log(array)
 }
+
 sumRows(sumRows)
